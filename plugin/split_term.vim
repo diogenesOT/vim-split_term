@@ -14,6 +14,11 @@ function STerm()
   execute "terminal"
 endfunction
 
+function STermB()
+  execute "bot split"
+  execute "terminal"
+endfunction
+
 
 function TabTerm()
   execute "tabedit"
@@ -22,6 +27,7 @@ endfunction
 
 command! VsTerm call VsTerm()
 command! STerm call STerm()
+command! STermB call STermB()
 
 command! TabTerm call TabTerm()
 
